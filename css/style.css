@@ -1,0 +1,137 @@
+.navbar-brand img {
+    max-height: 70px;
+}
+
+.bg-light {
+    background-color: rgb(71, 65, 67) !important;
+}
+
+#haut a {
+    color: #B1B1B1;
+}
+
+#haut img:hover,
+#haut a:hover {
+    opacity: 0.75;
+}
+
+header .row {
+    background-image: url(../img/bkg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+.signin {
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 100vh;
+}
+
+.signin h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+header h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 50px;
+}
+
+.slogan {
+    display: flex;
+    min-height: 100vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .slogan {
+        display: none;
+    }
+}
+#presentation {
+    padding-top: 30px;
+}
+
+#presentation .row{
+    min-height: calc(100vh - 70px);
+}
+
+#presentation .media span {
+    color: #F57476;
+    font-size: 3rem;
+    width: 4rem;
+    text-align: center;
+}
+
+#presentation .media {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+#presentation .media:hover {
+    background-color: rgba(95, 92, 137, 0.507);
+}
+
+.chambre {
+    min-height: calc(100vh - 70px);
+    background-image: url(../img/chambre.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.avisClient {
+    background-color: #d3dae4;
+    min-height: calc(100vh - 70px);
+}
+
+.avisClient span {
+    font-size: 5rem;
+    color: #17a2b8;
+}
+
+.avisClient h5{
+    font-size: 2rem;
+    color: #888;
+}
+
+#contact {
+    min-height: calc(100vh - 70px);
+    background-image: url(../img/paysage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#contact .row{
+    min-height: calc(100vh - 70px);
+}
+
+.formulaire {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2rem 1rem;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: #999;
+    font-size: 2rem;
+    transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
